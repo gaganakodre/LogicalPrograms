@@ -9,6 +9,7 @@
             Console.WriteLine("Press 2 to perform the  stopwatch program");
             Console.WriteLine("Press 3 to perform the  revesering a number");
             Console.WriteLine("Press 4 to perform the Fibonacci serioes");
+            Console.WriteLine("Press 5 to perform the  prime number program");
             int problem = Convert.ToInt32(Console.ReadLine());
             switch (problem)
             {
@@ -28,6 +29,10 @@
                 case 4:
                     Fibonaci1 fib = new Fibonaci1();
                     fib.fibonacci();
+                    break;
+                case 5:
+                    PrimeNumber pnum = new PrimeNumber();
+                    pnum.PrimeNum();
                     break;
             }
         }
