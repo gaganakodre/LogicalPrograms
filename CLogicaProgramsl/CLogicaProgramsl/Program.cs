@@ -34,6 +34,10 @@
                     PrimeNumber pnum = new PrimeNumber();
                     pnum.PrimeNum();
                     break;
+                case 6:
+                    CouponNumber cnum = new CouponNumber();
+                    cnum.CoupoNum();
+                    break;
             }
         }
     }
