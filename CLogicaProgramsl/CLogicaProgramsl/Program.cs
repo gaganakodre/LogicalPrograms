@@ -21,9 +21,10 @@
                     SWatch.StopWatchPrg();
                     break;
                 case 3:
-                    ResverseNumber RevNum = new ResverseNumber();
+                    ReverseNumber RevNum = new ReverseNumber();
                     RevNum.ReverseNum();
                     break;
+
                 case 4:
                     Fibonaci1 fib = new Fibonaci1();
                     fib.fibonacci();
