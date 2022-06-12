@@ -10,6 +10,7 @@
             Console.WriteLine("Press 3 to perform the  revesering a number");
             Console.WriteLine("Press 4 to perform the Fibonacci serioes");
             Console.WriteLine("Press 5 to perform the  prime number program");
+            Console.WriteLine("Press 6 to perform the  coupon number program");
             int problem = Convert.ToInt32(Console.ReadLine());
             switch (problem)
             {

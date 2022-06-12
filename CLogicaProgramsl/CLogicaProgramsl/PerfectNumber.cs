@@ -24,7 +24,7 @@ namespace CLogicaProgramsl
             int check = 0;
             Console.WriteLine("enter the number tat you to check");
             int Number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= Number / 2; i++)
+            for (int i = 1; i <= Number /2; i++)
             {
                 if (Factors(Number, i))
                 {

@@ -11,7 +11,7 @@ namespace CLogicaProgramsl
         public void CoupoNum()
         {
             int randonnum, totalCount = 0;
-            Console.WriteLine("Enter how many coupon number you want to generate");
+            Console.WriteLine("Enter how many coupon number you want to generate and also enter the numbers" );
             int N = Convert.ToInt32(Console.ReadLine());
             Random random = new Random();
 
